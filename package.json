@@ -1,0 +1,31 @@
+{
+   "name": "express-ts-skeleton",
+   "version": "1.0.0",
+   "description": "",
+   "main": "dist/server.js",
+   "dependencies": {
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.13",
+      "sequelize": "^6.21.2",
+      "sequelize-cli": "^6.4.1"
+   },
+   "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/node": "^16.11.10",
+      "nodemon": "^2.0.18",
+      "typescript": "4.5.2"
+   },
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node src/server.js",
+      "dev": "nodemon src/sever.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git@github.com-gabriel-acuna:gabriel-acuna/express-ts-skeleton.git"
+   },
+   "author": "",
+   "license": "ISC"
+}
